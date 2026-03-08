@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#14B8A6"/>
+  
+  <!-- Fork on left -->
+  <path d="M20 18 L20 38 M16 18 L16 24 Q16 28 20 28 M24 18 L24 24 Q24 28 20 28" 
+        stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Spoon on right -->
+  <path d="M44 18 Q44 24 44 26 Q44 28 42 28 Q40 28 40 26 L40 38" 
+        stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bowl/plate in center -->
+  <ellipse cx="32" cy="42" rx="14" ry="4" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M18 42 Q18 48 32 48 Q46 48 46 42" 
+        stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Steam lines -->
+  <path d="M28 36 Q28 32 26 30" stroke="#FFFFFF" stroke-width="1.5" fill="none" 
+        stroke-linecap="round" opacity="0.7"/>
+  <path d="M32 34 Q32 30 32 28" stroke="#FFFFFF" stroke-width="1.5" fill="none" 
+        stroke-linecap="round" opacity="0.7"/>
+  <path d="M36 36 Q36 32 38 30" stroke="#FFFFFF" stroke-width="1.5" fill="none" 
+        stroke-linecap="round" opacity="0.7"/>
+</svg>

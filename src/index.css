@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Custom Search Engine Styles */
+.gcse-search-wrapper .gsc-control-cse {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.gcse-search-wrapper .gsc-search-box {
+  margin: 0 !important;
+}
+
+.gcse-search-wrapper .gsc-input-box {
+  border-radius: 9999px !important;
+  border: none !important;
+  background: #f9fafb !important;
+  padding: 4px 8px !important;
+}
+
+.gcse-search-wrapper .gsc-input {
+  background: transparent !important;
+  font-size: 14px !important;
+  color: #374151 !important;
+}
+
+.gcse-search-wrapper .gsc-search-button-v2 {
+  background: linear-gradient(to right, #f97316, #ea580c) !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  padding: 10px 24px !important;
+  cursor: pointer !important;
+}
+
+.gcse-search-wrapper .gsc-search-button-v2 svg {
+  fill: white !important;
+}
+
+.gcse-search-wrapper .gsc-results-wrapper-overlay {
+  border-radius: 16px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15) !important;
+  margin-top: 8px !important;
+}
+
+.gcse-search-wrapper .gsc-result {
+  border-bottom: 1px solid #f3f4f6 !important;
+  padding: 12px 0 !important;
+}
+
+.gcse-search-wrapper .gs-title {
+  color: #f97316 !important;
+  font-weight: 600 !important;
+}
+
+.gcse-search-wrapper .gs-snippet {
+  color: #6b7280 !important;
+  font-size: 13px !important;
+}
+
+.mapbox-geocoder-wrapper .mapboxgl-ctrl-geocoder {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+  border-radius: 18px !important;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18) !important;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 18px;
+  color: #6b7280;
+  right: 10px;
+  top: 8px;
+}
+
+.mapboxgl-popup-close-button:hover {
+  background: transparent;
+  color: #111827;
+}
+
+.mapboxgl-popup {
+  max-width: 260px !important;
+}
+
+.mapboxgl-popup-content {
+  width: 260px;
+  padding: 0 !important;
+  border-radius: 18px;
+  overflow: hidden;
+}
